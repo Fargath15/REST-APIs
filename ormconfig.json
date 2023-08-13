@@ -1,0 +1,29 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "123456789",
+    "database": "project",
+    "schema": "public",
+    "synchronize": false,
+    "logging": false,
+    "uuidExtension": "pgcrypto",
+    "entities": [
+      "dist/entity/*.js"
+    ],
+    "subscribers": [
+      "src/subscriber/*.js"
+    ],
+    "migrations": [
+      "src/migration/*.js"
+    ],
+    "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    }
+  }
+]

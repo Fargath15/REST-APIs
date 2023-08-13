@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": [
+      "es2018",
+      "DOM",
+      "esnext.asynciterable"
+    ],
+    "module": "commonjs",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    // "allowImportingTsExtensions": true,
+    // "emitDeclarationOnly": true,
+    // "declaration": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
